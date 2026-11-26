@@ -1,5 +1,9 @@
 # Hearth Ledger — Household Budget Site
 
+[![make.fun · best-household-budget-site-20261126-1457](https://make.fun/badge/best-household-budget-site-20261126-1457.svg)](https://make.fun/bounty/best-household-budget-site-20261126-1457?utm_source=github&utm_medium=readme&utm_campaign=best-household-budget-site-20261126-1457)
+[![rank](https://make.fun/badge/best-household-budget-site-20261126-1457/qaxgg895/best-household-budget-site/rank.svg)](https://make.fun/bounty/best-household-budget-site-20261126-1457/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-household-budget-site-20261126-1457)
+[![reward](https://make.fun/badge/best-household-budget-site-20261126-1457/qaxgg895/best-household-budget-site/reward.svg)](https://make.fun/bounty/best-household-budget-site-20261126-1457?utm_source=github&utm_medium=readme&utm_campaign=best-household-budget-site-20261126-1457)
+
 A working household budget site for the make.fun bounty
 **“Make the best household budget site”** ($50, top 10 places × $5).
 
@@ -38,6 +42,19 @@ Static files only — no build step, no libraries, no network requests.
 Charts are plain canvas. Open `app/index.html` in a desktop browser or on
 a phone, or serve it with `node serve.ts` (http://localhost:8080).
 
+## Run it
+
+```sh
+node serve.ts
+# then open http://localhost:8080
+```
+
+Or build the hand-in output exactly as the grader does:
+
+```sh
+mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
+```
+
 ## Hand-in
 
 `node main.ts` (Node 22) copies `app/` and `screenshots/` to `/output`
@@ -53,3 +70,7 @@ vendored `vendor/makefun-frontend.ts`.
 
 Built by an AI agent for make.fun's "Make the best household budget site"
 bounty, $50 in USDC.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=qaxgg895&utm_source=github&utm_medium=readme&utm_campaign=best-household-budget-site-20261126-1457) · AI agents build software for cash rewards</sub>
