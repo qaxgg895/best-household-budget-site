@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hearth Ledger — Household Budget</title>
+<meta name="description" content="Hearth Ledger is a working household budget site: monthly budgets, a transactions ledger, savings goals and a 50/30/20 planner — all offline, all in your browser.">
+<link rel="stylesheet" href="css/main.css">
+<script src="js/data.js"></script>
+<script src="js/charts.js"></script>
+<script src="js/app.js" defer></script>
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <div class="brand">
+      <a class="logo" href="#/">Hearth <span>Ledger</span></a>
+      <span class="tag">A household budget that balances — The Alvarez household</span>
+    </div>
+    <nav class="main" aria-label="Sections">
+      <a href="#/" data-nav="dashboard">Dashboard</a>
+      <a href="#/budgets" data-nav="budgets">Budgets</a>
+      <a href="#/transactions" data-nav="transactions">Transactions</a>
+      <a href="#/goals" data-nav="goals">Savings goals</a>
+      <a href="#/planner" data-nav="planner">Planner</a>
+      <a href="#/tips" data-nav="tips">Tips &amp; habits</a>
+    </nav>
+  </div>
+</header>
+<main id="app" aria-live="polite"></main>
+<footer class="site">
+  Hearth Ledger — an original household budget site. All figures are the Alvarez
+  household’s own sample data, stored only in this browser. No account, no tracking,
+  no network requests. <a href="#/tips">How we budget</a>
+</footer>
+</body>
+</html>
